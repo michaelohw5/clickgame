@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "vader",
+        "image": "https://fsmedia.imgix.net/bd/01/37/c3/7c43/4930/9c8e/5f591116808c/darth-vader.jpeg?auto=format%2Ccompress&h=800&w=800&crop=edges&fit=crop"
+    },
+    {
+        "id": 2,
+        "name": "luke",
+        "image": "https://vignette.wikia.nocookie.net/starwars/images/8/87/Luke_whining.jpg/revision/latest?cb=20120109234546"
+    },
+    {
+        "id": 3,
+        "name": "r2d2",
+        "image": "https://www.dailydot.com/wp-content/uploads/2018/05/sw36.jpg"
+    },
+    {
+        "id": 4,
+        "name": "obiwan",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/32/Ben_Kenobi.png"
+    },
+    {
+        "id": 5,
+        "name": "yoda",
+        "image": "https://lumiere-a.akamaihd.net/v1/images/ep3_ia_89377_r_bb46f7c6.jpeg?region=500%2C313%2C2925%2C1462&width=960"
+    },
+    {
+        "id": 6,
+        "name": "dooku",
+        "image": "https://vignette.wikia.nocookie.net/villains/images/f/f5/Count-dooku.jpg/revision/latest?cb=20170619004133"
+    },
+    {
+        "id": 7,
+        "name": "fett",
+        "image": "https://cdn11.bigcommerce.com/s-4c9vl923de/images/stencil/1024x1024/products/115/378/original__27419.1483977430.jpg?c=2"
+    },
+    {
+        "id": 8,
+        "name": "droid",
+        "image": "https://www.sideshow.com/product-asset/100284/feature"
+    },
+    {
+        "id": 9,
+        "name": "han",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg/220px-Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg"
+    }
+]
