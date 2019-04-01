@@ -33,7 +33,11 @@ class App extends Component {
       }
     } else {
       alert("You already chose that");
-      this.setState({ score: 0 })
+    
+      this.setState({ 
+        score: 0,
+        chosen: []
+      })
     }
   }
 
