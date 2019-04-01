@@ -28,6 +28,7 @@ class App extends Component {
       this.setState({ cards });
     } else {
       alert("You already chose that");
+      this.setState({ score: 0 })
     }
   }
 
