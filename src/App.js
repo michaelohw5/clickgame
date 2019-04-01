@@ -9,7 +9,8 @@ class App extends Component {
   state = {
     cards: cards,
     chosen: [],
-    score: 0
+    score: 0,
+    topScore: 0
   }
 
   checkAndShuffle = (id) => {
@@ -26,6 +27,10 @@ class App extends Component {
       this.setState({ score });
       const cards = this.shuffle(this.state.cards);
       this.setState({ cards });
+      const top = this.state.topScore;
+      if(top<score) {
+        this.setState({ topScore: score });
+      }
     } else {
       alert("You already chose that");
       this.setState({ score: 0 })
@@ -57,8 +62,9 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <Nav 
+        <Nav
           score={this.state.score}
+          topScore={this.state.topScore}
         />
         <div className="row content">
           {this.state.cards.map(card => (
